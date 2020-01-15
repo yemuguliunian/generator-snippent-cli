@@ -1,10 +1,8 @@
 #! /usr/bin/env node
 const program = require('commander');
-const inquirer = require('inquirer');
 const package = require('../package.json');
 
-const run = require('../src/run');
-
+const run = require('../lib/run');
 
 program
     .version(package.version)
@@ -13,5 +11,5 @@ program
     .parse(process.argv);
 
 if (!program.sublime && !program.vscode) {
-    run()
+    run();
 }
