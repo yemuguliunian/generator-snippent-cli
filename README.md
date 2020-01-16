@@ -44,8 +44,7 @@ npm run snippent:build
             └── field.sublime-snippet
         └── snippent.sublime-snippet
     └── /vscode/
-        ├── /vue/
-            └── field.code-snippets
+        ├── field.code-snippets 
         └── snippent.code-snippets
 
 ```
