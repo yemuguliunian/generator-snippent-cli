@@ -59,7 +59,7 @@ npm run snippent:build
 snippent.js，文件名即触发代码片段的单词
 
 ```js
-{
+module.exports = {
     body: // 模板字符串，存放代码片段的内容，多行代码时为了缩进格式正确，你可能需要这样写
 `<fen-field
     label="$1"
