@@ -1,4 +1,4 @@
-# generator-snippent-cli
+# snippent-hub
 
 > 根据片段源文件生成不同编译器的代码片段，目前只支持 sublime 和 vscode
 
