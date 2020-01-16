@@ -24,6 +24,32 @@ cmd
 npm run snippent:build
 ```
 
+## 结构
+
+**源文件目录**
+
+```
+├── /snippent/
+    ├── /vue/
+        └── field.js
+    └── snippent.js
+```
+
+**输出目录**
+
+```
+├── /snippent-dist/
+    ├── /sublime/
+        ├── /vue/
+            └── field.sublime-snippet
+        └── snippent.sublime-snippet
+    └── /vscode/
+        ├── /vue/
+            └── field.code-snippets
+        └── snippent.code-snippets
+
+```
+
 ## 实现原理
 
 脚本默认读取执行命令目录层级下的 snippent 文件夹，通过读取该文件夹中的片段源文件来生成不同编译器的代码片段，目前只支持 sublime 和 vscode。
